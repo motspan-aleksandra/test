@@ -1,0 +1,131 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.quiz-container {
+    /*display: flex;*/
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(98, 0, 255);
+    /* carrot color i guess */
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    height: 1000px;
+    width: 1200px;
+    border-radius: 50px;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.title {
+    margin: 0;
+    font-size: 52px;
+    margin-top: 60px;
+}
+
+.question {
+
+    font-size: 40px;
+    margin-top: 40px;
+    width: 1000px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.options {
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin-bottom: 30px;
+    /*margin-top: 28px;*/
+
+}
+
+.btn {
+    background-color: rgb(118, 90, 255);
+    color: white;
+    font-size: 30px;
+
+    border: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+
+    /*
+    border: 2px solid white;
+    */
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+
+
+}
+
+.result {
+    /*
+    color: rgb(84, 0, 220);
+    background-color: rgb(197, 182, 255);
+    */
+
+    /*display: flex;*/
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(161, 149, 255);
+    /* carrot color i guess */
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    height: 180px;
+    width: 800px;
+    font-size: 50px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    align-items: start;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.stars {
+    position: absolute;
+    top: 50px;
+    left: calc(50% + 450px);
+    height: 250px;
+}
+
+
+/*
+rgb(213, 187, 255)
+
+background-color: rgb(138, 66, 255)
+rgb(133, 99, 255)
+ rgb(105, 63, 255)
+
+
+: rgb(121, 84, 255)
+
+rgb(110, 53, 255)
+ 
+.comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+*/
